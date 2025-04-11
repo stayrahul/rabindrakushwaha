@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="main.css">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="main.css"> 
   <title>Rabindra Kushwaha</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -185,11 +186,15 @@
             color: #FF0000;
           }
         
-          .tiktok i {
+          .tiktok span {
             background: linear-gradient(45deg, #69C9D0, #EE1D52);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-          }
+
+            /* For better cross-browser support */
+            background-clip: text;
+            color: transparent;
+        }
         </style>
         
       </div>
@@ -669,9 +674,11 @@
       
         .tiktok i {
           background: linear-gradient(45deg, #69C9D0, #EE1D52);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
+          background-clip: text;
+      color: transparent;
+
+      display: inline-block; /* Makes background clipping work properly */
+    }
       </style>
       
       
