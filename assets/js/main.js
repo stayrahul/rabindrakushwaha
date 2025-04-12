@@ -12,6 +12,10 @@
   /**
    * Header toggle
    */
+
+  const year = new Date().getFullYear();
+  document.getElementById('currentYear').textContent = year;
+
   const headerToggleBtn = document.querySelector('.header-toggle');
 
   function headerToggle() {

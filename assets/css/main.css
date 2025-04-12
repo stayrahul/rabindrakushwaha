@@ -102,7 +102,6 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #059652;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -181,6 +180,7 @@ h6 {
   color: var(--heading-color);
 }
 
+
 .header .social-links {
   margin: 0 0 20px 0;
 }
@@ -239,6 +239,16 @@ h6 {
   right: 15px;
   z-index: 9999;
   transition: background-color 0.3s;
+}
+
+.row{
+  margin-left: 10px;
+}
+.copyright{
+  margin-top: 20px;
+}
+.acolor a{
+  color: black;
 }
 
 .header .header-toggle:hover {
@@ -591,7 +601,7 @@ section,
   border-bottom: 2px solid var(--accent-color);
 }
 
-.hero .social-links {
+.hero s {
   margin-top: 25px;
 }
 
@@ -1110,7 +1120,7 @@ section,
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 10px;
   color: var(--default-color);
   background-color: var(--surface-color);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
