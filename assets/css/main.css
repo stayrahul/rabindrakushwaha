@@ -1302,4 +1302,18 @@ section,
 .portfolio-filters .filter-active {
   background-color: #0d6efd;
   color: #fff !important;
+
+
+.footer {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  color: #444;
 }
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
